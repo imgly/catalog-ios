@@ -46,7 +46,7 @@
       // For this example only a small selection of sticker actions
       // should be allowed.
       // highlight-actions
-      options.allowedStickerActions = @[@(StickerActionReplace), @(StickerActionColor)];
+      options.allowedStickerActions = @[@(StickerActionDuration), @(StickerActionReplace), @(StickerActionColor)];
       // highlight-actions
     }];
 

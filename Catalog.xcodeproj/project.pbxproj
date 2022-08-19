@@ -2253,7 +2253,7 @@
 			repositoryURL = "https://github.com/imgly/vesdk-ios-build";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 11.0.0;
+				minimumVersion = 11.3.0;
 			};
 		};
 		DBCD0984C3FF810869828AC3 /* XCRemoteSwiftPackageReference "pesdk-ios-build" */ = {
@@ -2261,7 +2261,7 @@
 			repositoryURL = "https://github.com/imgly/pesdk-ios-build";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 11.0.0;
+				minimumVersion = 11.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -34,6 +34,17 @@ class VideoTextConfigurationSwift: Example, VideoEditViewControllerDelegate {
         // highlight-size
       }
 
+      // Configure the `TextOptionsToolController` which lets the user
+      // customize a selected text when added to the canvas.
+      builder.configureTextOptionsToolController { options in
+        // By default the editor enables all available text actions.
+        // For this example only a small selection of text actions
+        // should be allowed.
+        // highlight-actions
+        options.allowedTextActions = [.duration, .selectFont, .selectColor]
+        // highlight-actions
+      }
+
       // Configure the `TextFontToolController` which lets the user
       // change the font of the text.
       builder.configureTextFontToolController { options in

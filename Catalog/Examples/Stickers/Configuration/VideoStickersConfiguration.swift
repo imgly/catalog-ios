@@ -39,7 +39,7 @@ class VideoStickersConfigurationSwift: Example, VideoEditViewControllerDelegate 
         // For this example only a small selection of sticker actions
         // should be allowed.
         // highlight-actions
-        options.allowedStickerActions = [.replace, .color]
+        options.allowedStickerActions = [.duration, .replace, .color]
         // highlight-actions
       }
 

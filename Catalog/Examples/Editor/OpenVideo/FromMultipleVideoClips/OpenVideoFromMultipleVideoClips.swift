@@ -11,12 +11,14 @@ class OpenVideoFromMultipleVideoClipsSwift: Example, VideoEditViewControllerDele
     let firstURL = Bundle.main.url(forResource: "Skater", withExtension: "mp4")!
     let secondURL = Bundle.main.url(forResource: "test_video", withExtension: "mp4")!
 
-    // Create `AVAsset`s from above `URL`s.
-    let firstAsset = AVAsset(url: firstURL)
-    let secondAsset = AVAsset(url: secondURL)
+    // Create `VideoSegment`s from above `URL`s.
+    let firstAsset = VideoSegment(url: firstURL)
+    // highlight-trim
+    let secondAsset = VideoSegment(url: secondURL, startTime: 1.5, endTime: 5.0)
+    // highlight-trim
 
     // Create a `Video` from above assets.
-    let video = Video(assets: [firstAsset, secondAsset])
+    let video = Video(segments: [firstAsset, secondAsset])
     // highlight-setup
 
     // Create a video editor and pass it the video. Make this class the delegate of it to handle export and cancelation.

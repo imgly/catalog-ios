@@ -39,6 +39,17 @@
       // highlight-size
     }];
 
+    // Configure the `PESDKTextOptionsToolController` which lets the user
+    // customize a selected text when added to the canvas.
+    [builder configureTextOptionsToolController:^(PESDKTextOptionsToolControllerOptionsBuilder * _Nonnull options) {
+      // By default the editor enables all available text actions.
+      // For this example only a small selection of text actions
+      // should be allowed.
+      // highlight-actions
+      options.allowedTextActions = @[@(TextActionDuration), @(TextActionSelectFont), @(TextActionSelectColor)];
+      // highlight-actions
+    }];
+    
     // Configure the `PESDKTextFontToolController` which lets the user
     // change the font of the text.
     [builder configureTextFontToolController:^(PESDKTextFontToolControllerOptionsBuilder * _Nonnull options) {

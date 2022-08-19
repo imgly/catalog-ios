@@ -44,6 +44,20 @@ class VideoSerializationSwift: Example, VideoEditViewControllerDelegate {
 
     // For loading serialized settings into the editor, please take a look at `VideoDeserializationSwift`.
 
+    // The above serialization just stores the edit model and not the edited asset which could be either a
+    // single video or a video composition of multiple video segments. In order to be able to fully restore and
+    // continue a previous video editing session including the complete video composition state the original
+    // video size and the individual video segments need to be saved. `OpenVideoFromMultipleVideoClipsSwift`
+    // shows how to initialize the editor with these video segments. The video size can be provided as an optional
+    // parameter when initializing a `Video`.
+    // highlight-composition
+    print("Video size:", result.task.video.size)
+    print("Video segments:")
+    for segment in result.task.video.segments {
+      print("URL:", segment.url, "startTime:", segment.startTime ?? "nil", "endTime:", segment.endTime ?? "nil")
+    }
+    // highlight-composition
+
     // Dismiss the editor.
     presentingViewController?.dismiss(animated: true, completion: nil)
   }

@@ -16,12 +16,14 @@
   NSURL *firstURL = [NSBundle.mainBundle URLForResource:@"Skater" withExtension:@"mp4"];
   NSURL *secondURL = [NSBundle.mainBundle URLForResource:@"test_video" withExtension:@"mp4"];
 
-  // Create `AVAsset`s from above `NSURL`s.
-  AVAsset *firstAsset = [AVAsset assetWithURL:firstURL];
-  AVAsset *secondAsset = [AVAsset assetWithURL:secondURL];
+  // Create `PESDKVideoSegment`s from above `NSURL`s.
+  PESDKVideoSegment *firstAsset = [[PESDKVideoSegment alloc] initWithURL:firstURL];
+  // highlight-trim
+  PESDKVideoSegment *secondAsset = [[PESDKVideoSegment alloc] initWithURL:secondURL startTime:@1.5 endTime:@5.0];
+  // highlight-trim
 
   // Create a `PESDKVideo` from above assets.
-  PESDKVideo *video = [[PESDKVideo alloc] initWithAssets:@[firstAsset, secondAsset]];
+  PESDKVideo *video = [[PESDKVideo alloc] initWithSegments:@[firstAsset, secondAsset]];
   // highlight-setup
 
   // Create a default `PESDKConfiguration`.

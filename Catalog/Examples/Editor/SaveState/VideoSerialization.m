@@ -30,7 +30,7 @@
   return YES;
 }
 
- - (void)videoEditViewControllerDidFinish:(PESDKVideoEditViewController * _Nonnull)videoEditViewController result:(PESDKVideoEditorResult * _Nonnull)result {
+- (void)videoEditViewControllerDidFinish:(PESDKVideoEditViewController * _Nonnull)videoEditViewController result:(PESDKVideoEditorResult * _Nonnull)result {
   // The user exported a new video successfully and the newly generated video is located at `result.output.url`.
 
   // To get an `NSData` object of all edits which have been applied to a video, you can use the following method.
@@ -51,6 +51,20 @@
   // `SaveVideoToFilesystemObjC` to get an idea about the approach to take for this.
 
   // For loading serialized settings into the editor, please take a look at `VideoDeserializationObjC`.
+
+  // The above serialization just stores the edit model and not the edited asset which could be either a
+  // single video or a video composition of multiple video segments. In order to be able to fully restore and
+  // continue a previous video editing session including the complete video composition state the original
+  // video size and the individual video segments need to be saved. `OpenVideoFromMultipleVideoClipsObjC`
+  // shows how to initialize the editor with these video segments. The video size can be provided as an optional
+  // parameter when initializing a `PESDKVideo`.
+  // highlight-composition
+  NSLog(@"Video size: (%.f, %.f)", result.task.video.size.width, result.task.video.size.height);
+  NSLog(@"Video segments:");
+  for (PESDKVideoSegment *segment in result.task.video.segments) {
+    NSLog(@"URL: %@ startTime: %@ endTime: %@", segment.url, segment.startTime, segment.endTime);
+  }
+  // highlight-composition
 
   // Dismiss the editor.
   [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
