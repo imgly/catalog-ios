@@ -40,6 +40,7 @@
 		2108BE523BA442959A08AFB8 /* PhotoAdjustmentsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A815EB69C0018A01B25AD8B /* PhotoAdjustmentsConfiguration.swift */; };
 		229B4C93E2075064528F1993 /* PhotoFiltersConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FE12F74A24EFC9C4AEBE27 /* PhotoFiltersConfiguration.m */; };
 		25514D58E622095FD2FACBAF /* AddAudioOverlaysFromRemoteURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 403AA6A0486ACB166FD28F98 /* AddAudioOverlaysFromRemoteURL.m */; };
+		2562D177029266246EE2A861 /* PhotoCustomizeSingleToolUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2873BC1F9B535D17D4A3AD58 /* PhotoCustomizeSingleToolUse.m */; };
 		27872461D053FF9D4D82B3A3 /* SaveVideoToFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1061AAAEC4F4D5FE32F93498 /* SaveVideoToFilesystem.m */; };
 		2A184A8AB98C39BB5AD19C94 /* VideoCompositionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776460B1F52597DCEF1C1CEA /* VideoCompositionConfiguration.swift */; };
 		2A5DC3A2FBB1E03A36F07491 /* trapped_in_the_upside_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD78B6FD57FEE8032D575AF5 /* trapped_in_the_upside_down.mp3 */; };
@@ -130,6 +131,7 @@
 		7F00E4A1B96A945FD987CF99 /* VideoCameraConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2845BFD4B355660EAFC275F /* VideoCameraConfiguration.swift */; };
 		81997A3E4EE5CC0DDDDF3DF4 /* VideoTextDesignConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F0E70113385D880195A07 /* VideoTextDesignConfiguration.swift */; };
 		837254A317E6DEF4D5902334 /* VideoTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4D79375C880D5659BFD06 /* VideoTheming.m */; };
+		848301B5C76A125C02BB20B0 /* VideoCustomizeSingleToolUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89418D1C8AC343804D413287 /* VideoCustomizeSingleToolUse.swift */; };
 		862CD7DB705092E74341F97A /* PhotoSnapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CAC00492A118B0C70B605 /* PhotoSnapping.m */; };
 		86639772B5184774CE124445 /* SaveVideoToBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95CFF915317A09B5FE70A1 /* SaveVideoToBase64.swift */; };
 		874C6FA5051512982131CA5E /* VideoStickersConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE304C2B6590B534E922D /* VideoStickersConfiguration.swift */; };
@@ -206,6 +208,7 @@
 		D86329F0E2308CA8A7489EC9 /* PhotoAddOverlaysFromAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4483567F41C524E85E9455 /* PhotoAddOverlaysFromAppBundle.swift */; };
 		DC03195D11EA78B38142D01F /* CompositionEnforceDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = F289FD9D62E2BBAD0247ED5F /* CompositionEnforceDuration.m */; };
 		DCC94E51A6F56684BC95F368 /* ConfigurationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC92DF80684B8DE2822694 /* ConfigurationExample.swift */; };
+		E0796F469D934A2379E1B228 /* VideoCustomizeSingleToolUse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B835A6AB8BB816BB6914E3 /* VideoCustomizeSingleToolUse.m */; };
 		E1CFC28FEAFEFA6A279883F7 /* CompositionEnforceDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6295457FEABA75B8CBC4943 /* CompositionEnforceDuration.swift */; };
 		E2982A85F6CB26422BCA3509 /* EmbedPhotoEditorUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FE1E72FBCE609BE6A3BE5 /* EmbedPhotoEditorUIKit.swift */; };
 		E3A14B13126F03B8E4F4713B /* PhotoDeserialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 74857DC48120873BB9217854 /* PhotoDeserialization.m */; };
@@ -234,6 +237,7 @@
 		FDB57E6BD876E88081210652 /* PhotoBrushConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320585A40A8288AE7053A87C /* PhotoBrushConfiguration.swift */; };
 		FE6CBDAD888BBD2BF240EE87 /* PhotoAddStickersFromAppBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 851680C516DC536ABA40EADC /* PhotoAddStickersFromAppBundle.m */; };
 		FEA7200CEA80D045F3971EE1 /* VideoSnapping.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3B9D6B9DA9FD473CBE981C /* VideoSnapping.m */; };
+		FFA9DF3D0E13BB50EF68BABE /* PhotoCustomizeSingleToolUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE037C3A688F7C9408BA5D4 /* PhotoCustomizeSingleToolUse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -287,6 +291,7 @@
 		2684E300187BAF7C969ED0D0 /* VideoAdjustmentsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdjustmentsConfiguration.swift; sourceTree = "<group>"; };
 		283DE0E8469C245AF391BC76 /* PhotoAddFramesFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFramesFromRemoteURL.swift; sourceTree = "<group>"; };
 		2845C0EBD87C50AA83240EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2873BC1F9B535D17D4A3AD58 /* PhotoCustomizeSingleToolUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCustomizeSingleToolUse.m; sourceTree = "<group>"; };
 		28ADEE2A18B2CB89B014591A /* PhotoAddFontsFromRemoteURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAddFontsFromRemoteURL.h; sourceTree = "<group>"; };
 		28FAA29E16125B621FB46107 /* PhotoTransformConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTransformConfiguration.swift; sourceTree = "<group>"; };
 		292DAB47FD94629619BF3BED /* custom_sticker_igor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_sticker_igor.png; sourceTree = "<group>"; };
@@ -300,6 +305,7 @@
 		3138DC5EE79943CB9FCBE934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		320585A40A8288AE7053A87C /* PhotoBrushConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrushConfiguration.swift; sourceTree = "<group>"; };
 		320EC3447293EDB817A91BF5 /* PhotoFocusConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFocusConfiguration.swift; sourceTree = "<group>"; };
+		3239A184FD297706EA27DE72 /* PhotoCustomizeSingleToolUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCustomizeSingleToolUse.h; sourceTree = "<group>"; };
 		3290F74B67E23C37D78808DD /* AddAudioOverlaysFromAppBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddAudioOverlaysFromAppBundle.h; sourceTree = "<group>"; };
 		32B03D4A1AE4BB13C5EBDE83 /* SaveVideoToBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveVideoToBase64.m; sourceTree = "<group>"; };
 		32BBA484037C5B4AECDD88D5 /* PhotoCustomizeMenuItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCustomizeMenuItems.m; sourceTree = "<group>"; };
@@ -430,11 +436,13 @@
 		863B71898212E61096F084DF /* ShowPhotoEditorUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowPhotoEditorUIKit.h; sourceTree = "<group>"; };
 		87370C556A6D2AA3E843FEA5 /* PhotoTextDesignConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTextDesignConfiguration.swift; sourceTree = "<group>"; };
 		89275D882524071CACB7A4B0 /* VideoDeserialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDeserialization.swift; sourceTree = "<group>"; };
+		89418D1C8AC343804D413287 /* VideoCustomizeSingleToolUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCustomizeSingleToolUse.swift; sourceTree = "<group>"; };
 		89DE0DDF8C85FE17DFA9270D /* notes.mp4 */ = {isa = PBXFileReference; path = notes.mp4; sourceTree = "<group>"; };
 		8A0BA8E8736C922870C6A151 /* VideoAddOverlaysFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAddOverlaysFromAppBundle.swift; sourceTree = "<group>"; };
 		8A59D748DE79F6E6ED2E89ED /* PhotoSnapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSnapping.h; sourceTree = "<group>"; };
 		8C76345C3400B6A1404AE4A2 /* PhotoAddFramesFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFramesFromAppBundle.swift; sourceTree = "<group>"; };
 		8CB32E1E5CA1F774C36E5E4B /* VideoTextConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTextConfiguration.m; sourceTree = "<group>"; };
+		8DE037C3A688F7C9408BA5D4 /* PhotoCustomizeSingleToolUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCustomizeSingleToolUse.swift; sourceTree = "<group>"; };
 		8FAAF39320941867F7E5F49F /* OpenPhotoFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPhotoFromAppBundle.swift; sourceTree = "<group>"; };
 		8FC0D657048D4A649D90986D /* dj.mp4 */ = {isa = PBXFileReference; path = dj.mp4; sourceTree = "<group>"; };
 		90BC7EF5A83B213552BEBB2E /* ShowPhotoCameraSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPhotoCameraSwiftUI.swift; sourceTree = "<group>"; };
@@ -459,6 +467,7 @@
 		9D3EE7E39492EAFD8C24346C /* PhotoAddFiltersFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFiltersFromAppBundle.swift; sourceTree = "<group>"; };
 		9D60126B498525A35BE40234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9D8297EDA2608DB04F2523D9 /* VideoAddOverlaysFromAppBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAddOverlaysFromAppBundle.m; sourceTree = "<group>"; };
+		9DD9579D7C464A936F56728E /* VideoCustomizeSingleToolUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCustomizeSingleToolUse.h; sourceTree = "<group>"; };
 		9E15C3BD97AC5BC3968681BB /* PhotoCustomizeIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCustomizeIcons.h; sourceTree = "<group>"; };
 		9F2B2A244862DA3836F9997D /* PhotoAddStickersFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddStickersFromRemoteURL.swift; sourceTree = "<group>"; };
 		9F4EBFB13C105F7F39449ABF /* imgly_overlay_grain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgly_overlay_grain.jpg; sourceTree = "<group>"; };
@@ -516,6 +525,7 @@
 		D202E7D67B0EB962B706BF57 /* ShowVideoEditorUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowVideoEditorUIKit.swift; sourceTree = "<group>"; };
 		D320D01C1E3465AF5DDAE29C /* SavePhotoToFilesystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoToFilesystem.swift; sourceTree = "<group>"; };
 		D3B6DBD433F4EE0C753C7B74 /* AudioOverlayConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioOverlayConfiguration.h; sourceTree = "<group>"; };
+		D3B835A6AB8BB816BB6914E3 /* VideoCustomizeSingleToolUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCustomizeSingleToolUse.m; sourceTree = "<group>"; };
 		D56D0F14A2A5C02C70A487B2 /* TrimConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrimConfiguration.h; sourceTree = "<group>"; };
 		D5F752CB89CE02E2D75E2551 /* PhotoAddFiltersFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFiltersFromRemoteURL.swift; sourceTree = "<group>"; };
 		D6AEC1E99B6B8C03BE606AA6 /* VideoAddOverlaysFromAppBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAddOverlaysFromAppBundle.h; sourceTree = "<group>"; };
@@ -1358,6 +1368,19 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		A8E4CE79D6D180C25A66F892 /* SingleToolUse */ = {
+			isa = PBXGroup;
+			children = (
+				3239A184FD297706EA27DE72 /* PhotoCustomizeSingleToolUse.h */,
+				2873BC1F9B535D17D4A3AD58 /* PhotoCustomizeSingleToolUse.m */,
+				8DE037C3A688F7C9408BA5D4 /* PhotoCustomizeSingleToolUse.swift */,
+				9DD9579D7C464A936F56728E /* VideoCustomizeSingleToolUse.h */,
+				D3B835A6AB8BB816BB6914E3 /* VideoCustomizeSingleToolUse.m */,
+				89418D1C8AC343804D413287 /* VideoCustomizeSingleToolUse.swift */,
+			);
+			path = SingleToolUse;
+			sourceTree = "<group>";
+		};
 		A93D9693F7B6EC49002EEA55 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -1716,6 +1739,7 @@
 				CC99FF5F98182CC98A87FF3A /* SavePhoto */,
 				D8BC087B6F9DE107A0AD62C6 /* SaveState */,
 				3E0CAE8E05D9CB105EFA48D4 /* SaveVideo */,
+				A8E4CE79D6D180C25A66F892 /* SingleToolUse */,
 				B440FAD1482B2F5718F26D7E /* Snapping */,
 			);
 			path = Editor;
@@ -1916,6 +1940,8 @@
 				40998BBB0627DD6576B4EB6D /* PhotoCustomizeIcons.swift in Sources */,
 				CAB8BAF92DCD63AB8DD12019 /* PhotoCustomizeMenuItems.m in Sources */,
 				94772B82F618EE3F2587F050 /* PhotoCustomizeMenuItems.swift in Sources */,
+				2562D177029266246EE2A861 /* PhotoCustomizeSingleToolUse.m in Sources */,
+				FFA9DF3D0E13BB50EF68BABE /* PhotoCustomizeSingleToolUse.swift in Sources */,
 				E3A14B13126F03B8E4F4713B /* PhotoDeserialization.m in Sources */,
 				C9D695035A65191056C45DF9 /* PhotoDeserialization.swift in Sources */,
 				F5DC4E99EA1E2B2027784258 /* PhotoEditorConfiguration.m in Sources */,
@@ -2016,6 +2042,8 @@
 				D23D3AB30F213FB2675E4322 /* VideoCustomizeIcons.swift in Sources */,
 				8FE03B5FAB81A6DA4706AD6B /* VideoCustomizeMenuItems.m in Sources */,
 				3CB54093195E8CEE9C91A9BB /* VideoCustomizeMenuItems.swift in Sources */,
+				E0796F469D934A2379E1B228 /* VideoCustomizeSingleToolUse.m in Sources */,
+				848301B5C76A125C02BB20B0 /* VideoCustomizeSingleToolUse.swift in Sources */,
 				5ADEEC4C883FA2CCCA921A36 /* VideoDeserialization.m in Sources */,
 				8BF0E97A99CFFA810AEEE2EE /* VideoDeserialization.swift in Sources */,
 				20E34AA6718492DBEC77FE37 /* VideoEditorConfiguration.m in Sources */,

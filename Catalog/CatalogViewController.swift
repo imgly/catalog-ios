@@ -66,6 +66,8 @@ class CatalogViewController: UIViewController {
       ExampleItem(title: "Editor Configuration", examples: [
         ExampleItem(title: "Customize Menu Items", subtitle: "Presents a photo editor with customized menu items modally.", products: [.pesdk], swiftExample: PhotoCustomizeMenuItemsSwift.self, objCExample: PhotoCustomizeMenuItemsObjC.self),
         ExampleItem(title: "Customize Menu Items", subtitle: "Presents a video editor with customized menu items modally.", products: [.vesdk], swiftExample: VideoCustomizeMenuItemsSwift.self, objCExample: VideoCustomizeMenuItemsObjC.self),
+        ExampleItem(title: "Single Tool Use", subtitle: "Presents a photo editor in a single tool mode where main menu is skipped", products: [.pesdk], swiftExample: PhotoCustomizeSingleToolUseSwift.self, objCExample: PhotoCustomizeSingleToolUseObjC.self),
+        ExampleItem(title: "Single Tool Use", subtitle: "Presents a video editor in a single tool mode where main menu is skipped", products: [.vesdk], swiftExample: VideoCustomizeSingleToolUseSwift.self, objCExample: VideoCustomizeSingleToolUseObjC.self),
         ExampleItem(title: "Add Custom Tool", subtitle: "Presents a photo editor with a custom tool modally.", products: [.pesdk], swiftExample: PhotoAddCustomToolSwift.self, objCExample: nil),
         ExampleItem(title: "Add Custom Tool", subtitle: "Presents a video editor with a custom tool modally.", products: [.vesdk], swiftExample: VideoAddCustomToolSwift.self, objCExample: nil),
         ExampleItem(title: "Custom Configuration", subtitle: "Presents a photo editor modally using a custom configuration.", products: [.pesdk], swiftExample: PhotoEditorConfigurationSwift.self, objCExample: PhotoEditorConfigurationObjC.self),
