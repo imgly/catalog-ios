@@ -12,6 +12,7 @@
 		07F337624EA7E7D1BE176DBF /* OpenPhotoFromAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAAF39320941867F7E5F49F /* OpenPhotoFromAppBundle.swift */; };
 		0828291F2162500D2420A3E1 /* ShowVideoCameraUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361A4E821406659403851EB /* ShowVideoCameraUIKit.swift */; };
 		087605A655624D21F7C46FC7 /* VideoTextDesignConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A401377A08D2B9CF4791B /* VideoTextDesignConfiguration.m */; };
+		08ED8995BE5C194B9521EC66 /* VideoLinkSmartSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8BE8E93A7B78D58034202 /* VideoLinkSmartSticker.m */; };
 		0939447C3EB3F7147207EFB7 /* VideoSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C394D6FEBB6331BCD3456 /* VideoSerialization.swift */; };
 		0D3B0771453BC168B54EAF30 /* VideoCustomizeIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 50380868794B2262A38D439A /* VideoCustomizeIcons.m */; };
 		0E1EEC9A10447864AB40A76A /* Skater.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38FA26DEA51A541A29C953F6 /* Skater.mp4 */; };
@@ -60,7 +61,9 @@
 		342682C1DC95B35F02FDDAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EC839E590CC0C9368B33B /* Assets.xcassets */; };
 		343513B4EB92BD6ED2E7E6E8 /* SaveVideoToData.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B3F3E6A721DED1D667FEEF /* SaveVideoToData.m */; };
 		357CB45A619EDBEBC490A6D1 /* PhotoAddFontsFromAppBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D70093ECFBA9D9337385CB2D /* PhotoAddFontsFromAppBundle.m */; };
+		3639F96891FF56B595DB5BEA /* VideoLinkSmartSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2707A5F33468DB64A411A0E0 /* VideoLinkSmartSticker.swift */; };
 		3774CF02DD06F89F15D03B53 /* test_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78FCC19E7022D0F19FC5A76D /* test_video.mp4 */; };
+		3794361DBD88CC36D5D385E3 /* PhotoLinkSmartSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B88773BD3A8EFCFAFF51E37 /* PhotoLinkSmartSticker.m */; };
 		3CB54093195E8CEE9C91A9BB /* VideoCustomizeMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D5BDEE62647BE65D31D08 /* VideoCustomizeMenuItems.swift */; };
 		3EC7F46D10A999F9CAD51BCC /* VideoAddCustomTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6F3DF22B951C4197BA0169 /* VideoAddCustomTool.swift */; };
 		3FBB88DBB0379288D879A8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AF76255E6ED124218B2614 /* LaunchScreen.storyboard */; };
@@ -92,6 +95,7 @@
 		5ADEEC4C883FA2CCCA921A36 /* VideoDeserialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDBBCF5360AF5190119ED9 /* VideoDeserialization.m */; };
 		5B355175E2679478CCDC6DE6 /* PhotoAddOverlaysFromAppBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E11C13A21A92B487765E5D /* PhotoAddOverlaysFromAppBundle.m */; };
 		5C5FBF48F9871BF76E1D946B /* AddAudioOverlaysFromAppBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = E821E6BABF23C8D517F57B43 /* AddAudioOverlaysFromAppBundle.m */; };
+		5C95B5B1AEE1A3DCC2F34038 /* PhotoLinkSmartSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB0C7C6136534776B8DF2A7 /* PhotoLinkSmartSticker.swift */; };
 		5CDD3D884233DD82F7451E80 /* PhotoEditorSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 220B3B5F7136FE4702591388 /* PhotoEditorSDK */; };
 		5DC7FA74B96830599C1F9097 /* PhotoTheming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A52A98DF6D85130B177F88 /* PhotoTheming.swift */; };
 		5E211268ADA382CB33BC18BC /* PhotoFramesConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9292B27279F390714516FB5 /* PhotoFramesConfiguration.swift */; };
@@ -289,6 +293,7 @@
 		24FF3F7900BA3C06726611D2 /* TrimConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrimConfiguration.m; sourceTree = "<group>"; };
 		26047C91A49BC24EB9B226BD /* PhotoCustomizeIcons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCustomizeIcons.m; sourceTree = "<group>"; };
 		2684E300187BAF7C969ED0D0 /* VideoAdjustmentsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdjustmentsConfiguration.swift; sourceTree = "<group>"; };
+		2707A5F33468DB64A411A0E0 /* VideoLinkSmartSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLinkSmartSticker.swift; sourceTree = "<group>"; };
 		283DE0E8469C245AF391BC76 /* PhotoAddFramesFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFramesFromRemoteURL.swift; sourceTree = "<group>"; };
 		2845C0EBD87C50AA83240EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2873BC1F9B535D17D4A3AD58 /* PhotoCustomizeSingleToolUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCustomizeSingleToolUse.m; sourceTree = "<group>"; };
@@ -383,6 +388,7 @@
 		5D95CFF915317A09B5FE70A1 /* SaveVideoToBase64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVideoToBase64.swift; sourceTree = "<group>"; };
 		5DC72EBB66304B77ED2E3B2E /* PhotoAddStickersFromRemoteURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAddStickersFromRemoteURL.m; sourceTree = "<group>"; };
 		5EB55BB64AE87EA162671234 /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		5FB0C7C6136534776B8DF2A7 /* PhotoLinkSmartSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLinkSmartSticker.swift; sourceTree = "<group>"; };
 		5FCDBBCF5360AF5190119ED9 /* VideoDeserialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDeserialization.m; sourceTree = "<group>"; };
 		60517333111964B0620B04B7 /* SavePhotoToBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavePhotoToBase64.h; sourceTree = "<group>"; };
 		6195F3B9E873F4138CAD845A /* VideoCameraConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCameraConfiguration.h; sourceTree = "<group>"; };
@@ -420,6 +426,7 @@
 		7A996BC661DDD310A326C3CB /* VideoAddStickersFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAddStickersFromAppBundle.swift; sourceTree = "<group>"; };
 		7AA4D639BA1CC725524558E6 /* VideoAddFontsFromAppBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAddFontsFromAppBundle.m; sourceTree = "<group>"; };
 		7B93729832DBA96727B3D5F3 /* OpenVideoFromCameraRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVideoFromCameraRoll.swift; sourceTree = "<group>"; };
+		7BB8BE8E93A7B78D58034202 /* VideoLinkSmartSticker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoLinkSmartSticker.m; sourceTree = "<group>"; };
 		7DA4BB4A47B58E739653BB05 /* VideoOverlaysConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOverlaysConfiguration.swift; sourceTree = "<group>"; };
 		7E3D5CE0B8DBBEA6E341B6FC /* OpenPhotoFromCameraRoll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenPhotoFromCameraRoll.h; sourceTree = "<group>"; };
 		7FEE2D52FBB5AEA53A9113C1 /* SavePhotoToCameraRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoToCameraRoll.swift; sourceTree = "<group>"; };
@@ -440,6 +447,7 @@
 		89DE0DDF8C85FE17DFA9270D /* notes.mp4 */ = {isa = PBXFileReference; path = notes.mp4; sourceTree = "<group>"; };
 		8A0BA8E8736C922870C6A151 /* VideoAddOverlaysFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAddOverlaysFromAppBundle.swift; sourceTree = "<group>"; };
 		8A59D748DE79F6E6ED2E89ED /* PhotoSnapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSnapping.h; sourceTree = "<group>"; };
+		8B88773BD3A8EFCFAFF51E37 /* PhotoLinkSmartSticker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoLinkSmartSticker.m; sourceTree = "<group>"; };
 		8C76345C3400B6A1404AE4A2 /* PhotoAddFramesFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFramesFromAppBundle.swift; sourceTree = "<group>"; };
 		8CB32E1E5CA1F774C36E5E4B /* VideoTextConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTextConfiguration.m; sourceTree = "<group>"; };
 		8DE037C3A688F7C9408BA5D4 /* PhotoCustomizeSingleToolUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCustomizeSingleToolUse.swift; sourceTree = "<group>"; };
@@ -462,6 +470,7 @@
 		981E7E019BCF63C09EA84CEA /* PhotoFramesConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFramesConfiguration.h; sourceTree = "<group>"; };
 		992D586205E933D7CCDD48C5 /* custom_font_raleway_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = custom_font_raleway_regular.ttf; sourceTree = "<group>"; };
 		99C8B9EAF2F69A95B0B7A5E0 /* TrimEnforceDuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrimEnforceDuration.m; sourceTree = "<group>"; };
+		9ACC0A1CDD9ED0CD0A4E7EC2 /* VideoLinkSmartSticker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoLinkSmartSticker.h; sourceTree = "<group>"; };
 		9B1502D8BE480A578E71B9F4 /* VideoDeserialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDeserialization.h; sourceTree = "<group>"; };
 		9C530F8C9BC7E6D63C8EDC00 /* OpenVideoFromRemoteURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenVideoFromRemoteURL.h; sourceTree = "<group>"; };
 		9D3EE7E39492EAFD8C24346C /* PhotoAddFiltersFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAddFiltersFromAppBundle.swift; sourceTree = "<group>"; };
@@ -487,6 +496,7 @@
 		AC696DE3D6CF296F3CE5A4E6 /* VideoCustomizeMenuItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCustomizeMenuItems.h; sourceTree = "<group>"; };
 		ACFC80B20770045FAB5CAB20 /* VideoAddFontsFromAppBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAddFontsFromAppBundle.h; sourceTree = "<group>"; };
 		AE0F4161967B9AD347AA73E8 /* PhotoAddFiltersFromRemoteURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAddFiltersFromRemoteURL.h; sourceTree = "<group>"; };
+		B055FF63CDB7EFC10E4C0A92 /* PhotoLinkSmartSticker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoLinkSmartSticker.h; sourceTree = "<group>"; };
 		B193B364D1514458A35B6CD0 /* dance_harder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dance_harder.mp3; sourceTree = "<group>"; };
 		B1D7DBFD8CC840C3C96A00BB /* VideoAdjustmentsConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAdjustmentsConfiguration.h; sourceTree = "<group>"; };
 		B21A0F7CE1EDC6F33E802B40 /* VideoAddStickersFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAddStickersFromRemoteURL.swift; sourceTree = "<group>"; };
@@ -753,6 +763,19 @@
 				6C5A9E3B26C2C22589622A45 /* OpenPhotoFromRemoteURL.swift */,
 			);
 			path = FromRemoteURL;
+			sourceTree = "<group>";
+		};
+		126846A9596E00B39F507476 /* SmartStickers */ = {
+			isa = PBXGroup;
+			children = (
+				B055FF63CDB7EFC10E4C0A92 /* PhotoLinkSmartSticker.h */,
+				8B88773BD3A8EFCFAFF51E37 /* PhotoLinkSmartSticker.m */,
+				5FB0C7C6136534776B8DF2A7 /* PhotoLinkSmartSticker.swift */,
+				9ACC0A1CDD9ED0CD0A4E7EC2 /* VideoLinkSmartSticker.h */,
+				7BB8BE8E93A7B78D58034202 /* VideoLinkSmartSticker.m */,
+				2707A5F33468DB64A411A0E0 /* VideoLinkSmartSticker.swift */,
+			);
+			path = SmartStickers;
 			sourceTree = "<group>";
 		};
 		134D79BFBEA1C913471F7286 /* Configuration */ = {
@@ -1322,6 +1345,7 @@
 			children = (
 				D2AFFF9D3E151AFE34EBD412 /* AddStickers */,
 				2E2BC248E4D5A08F62725ED6 /* Configuration */,
+				126846A9596E00B39F507476 /* SmartStickers */,
 			);
 			path = Stickers;
 			sourceTree = "<group>";
@@ -1952,6 +1976,8 @@
 				69BCBD7635E9FC173D6064AD /* PhotoFocusConfiguration.swift in Sources */,
 				5A242E9F3D058509A8126426 /* PhotoFramesConfiguration.m in Sources */,
 				5E211268ADA382CB33BC18BC /* PhotoFramesConfiguration.swift in Sources */,
+				3794361DBD88CC36D5D385E3 /* PhotoLinkSmartSticker.m in Sources */,
+				5C95B5B1AEE1A3DCC2F34038 /* PhotoLinkSmartSticker.swift in Sources */,
 				C099D3FA30C32D86CAC16C10 /* PhotoLocalization.m in Sources */,
 				EEEB6FE26B1206A81BAAA595 /* PhotoLocalization.swift in Sources */,
 				C08B545C43D60FDA5BFDCE80 /* PhotoOverlaysConfiguration.m in Sources */,
@@ -2054,6 +2080,8 @@
 				6AC5F3AA0A0736FDCC3F5BDF /* VideoFocusConfiguration.swift in Sources */,
 				6B945B915428300B017091E0 /* VideoFramesConfiguration.m in Sources */,
 				2B9E21E80806AFA415FB23F4 /* VideoFramesConfiguration.swift in Sources */,
+				08ED8995BE5C194B9521EC66 /* VideoLinkSmartSticker.m in Sources */,
+				3639F96891FF56B595DB5BEA /* VideoLinkSmartSticker.swift in Sources */,
 				51723E35D7D8361A21B0B3FF /* VideoLocalization.m in Sources */,
 				64FA60610C5495C8B2328D04 /* VideoLocalization.swift in Sources */,
 				8F2673B8A3895101256D1CD4 /* VideoOverlaysConfiguration.m in Sources */,
