@@ -33,7 +33,7 @@ class AudioOverlayConfigurationSwift: Example, VideoEditViewControllerDelegate {
 
       // Add the custom audio clips to the asset catalog.
       // highlight-clips
-      assetCatalog.audioClips = [elsewhereAudioClipCategory, otherAudioClipCategory]
+      assetCatalog.audioClips.append(contentsOf: [elsewhereAudioClipCategory, otherAudioClipCategory])
       // highlight-clips
 
       // Use the new asset catalog for the configuration.

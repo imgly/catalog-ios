@@ -139,6 +139,7 @@
 		862CD7DB705092E74341F97A /* PhotoSnapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CAC00492A118B0C70B605 /* PhotoSnapping.m */; };
 		86639772B5184774CE124445 /* SaveVideoToBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95CFF915317A09B5FE70A1 /* SaveVideoToBase64.swift */; };
 		874C6FA5051512982131CA5E /* VideoStickersConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACE304C2B6590B534E922D /* VideoStickersConfiguration.swift */; };
+		892D311BAC1CDB164EF6ED63 /* AddAudioOverlaysFromSoundstripe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DC1E73424D2FACDEB83B7 /* AddAudioOverlaysFromSoundstripe.swift */; };
 		893C3158BB2AE77D2F4762E3 /* VideoAddStickersFromAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A996BC661DDD310A326C3CB /* VideoAddStickersFromAppBundle.swift */; };
 		8BF0E97A99CFFA810AEEE2EE /* VideoDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89275D882524071CACB7A4B0 /* VideoDeserialization.swift */; };
 		8F2673B8A3895101256D1CD4 /* VideoOverlaysConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE51EDC1178F788A45E31AB /* VideoOverlaysConfiguration.m */; };
@@ -412,6 +413,7 @@
 		6C5A9E3B26C2C22589622A45 /* OpenPhotoFromRemoteURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPhotoFromRemoteURL.swift; sourceTree = "<group>"; };
 		6E8F72393D55585D9404B498 /* PhotoOverlaysConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoOverlaysConfiguration.h; sourceTree = "<group>"; };
 		6ED3C247CFA8043732BBAEBF /* VideoEditorConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditorConfiguration.m; sourceTree = "<group>"; };
+		6F1DC1E73424D2FACDEB83B7 /* AddAudioOverlaysFromSoundstripe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAudioOverlaysFromSoundstripe.swift; sourceTree = "<group>"; };
 		6F4EBFE10D4C2DA5D8E3EF8D /* PhotoFiltersConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersConfiguration.swift; sourceTree = "<group>"; };
 		6F83E1B309AED82B6880D300 /* imgly_frame_lowpoly_top_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgly_frame_lowpoly_top_right.png; sourceTree = "<group>"; };
 		6F8EC839E590CC0C9368B33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -816,6 +818,14 @@
 				7F71532108FC40B7F40E24A8 /* FromRemoteURL */,
 			);
 			path = AddFrames;
+			sourceTree = "<group>";
+		};
+		197AC19BB747B70FCC7EE359 /* FromSoundstripe */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DC1E73424D2FACDEB83B7 /* AddAudioOverlaysFromSoundstripe.swift */,
+			);
+			path = FromSoundstripe;
 			sourceTree = "<group>";
 		};
 		1C353E99EF13F3F8D32FECDB /* UserInterface */ = {
@@ -1365,6 +1375,7 @@
 			children = (
 				6BD331A8893000B3CCCF7D94 /* FromAppBundle */,
 				B6631E0CFC59BA94C4840C0C /* FromRemoteURL */,
+				197AC19BB747B70FCC7EE359 /* FromSoundstripe */,
 			);
 			path = AddAudioOverlays;
 			sourceTree = "<group>";
@@ -1901,6 +1912,7 @@
 				2D2E96961D1FCCBC56855D33 /* AddAudioOverlaysFromAppBundle.swift in Sources */,
 				25514D58E622095FD2FACBAF /* AddAudioOverlaysFromRemoteURL.m in Sources */,
 				52D880E6433EDFFA21616CCA /* AddAudioOverlaysFromRemoteURL.swift in Sources */,
+				892D311BAC1CDB164EF6ED63 /* AddAudioOverlaysFromSoundstripe.swift in Sources */,
 				655011FDFAD71171C6549BAE /* AppDelegate.swift in Sources */,
 				10A59A45F6A7D4AADC9BDDFD /* AudioOverlayConfiguration.m in Sources */,
 				1C5A4925BB9BD08D71FE11B0 /* AudioOverlayConfiguration.swift in Sources */,

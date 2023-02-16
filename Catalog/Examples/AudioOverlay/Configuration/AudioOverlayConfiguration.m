@@ -48,7 +48,7 @@
 
     // Add the custom audio clips to the asset catalog.
     // highlight-clips
-    assetCatalog.audioClips = @[elsewhereAudioClipCategory, otherAudioClipCategory];
+    assetCatalog.audioClips = [assetCatalog.audioClips arrayByAddingObjectsFromArray:@[elsewhereAudioClipCategory, otherAudioClipCategory]];
     // highlight-clips
 
     // Use the new asset catalog for the configuration.
